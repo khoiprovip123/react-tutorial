@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 // import * as contantAll from "./const/const";
 import { name, job } from "./const/const";
+import Product from "./Components/Product";
 
 // console.log(contantAll);
 // console.log(contantAll.name);
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello Word</h1>
+      <Product />
     </div>
   );
 }
